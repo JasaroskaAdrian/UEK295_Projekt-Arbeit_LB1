@@ -7,8 +7,8 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: supersecret123
-      MYSQL_DATABASE: marjas
-      MYSQL_USER: marjas
+      MYSQL_DATABASE: product-manager
+      MYSQL_USER: product-manager
       MYSQL_PASSWORD: mychatpassword
     ports:
       - "3306:3306"
