@@ -19,6 +19,7 @@ import java.util.Set;
 @RestController
 @RequestMapping("/auth")
 @Tag(name = "Auth", description = "Endpoints for authentication")
+// Authentication endpoints for login and registration
 public class AuthController {
 
     @Autowired
@@ -43,7 +44,7 @@ public class AuthController {
     @PostMapping("/register")
     public ResponseEntity<User> register(@RequestBody AuthRequest request) {
         User user = new User();
-        // user = userMapper.toUser(request)
+        // Convert request to user entity
         user.setUsername(request.getUsername());
         user.setPassword(passwordEncoder.encode(request.getPassword()));
         user.setRoles(Set.of("USER"));

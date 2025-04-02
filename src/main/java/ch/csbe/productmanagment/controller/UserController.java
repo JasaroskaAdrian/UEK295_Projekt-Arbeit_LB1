@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/users")
 @Tag(name = "Users", description = "Endpoints for managing users")
+// User management endpoints for CRUD operations
 public class UserController {
 
     @Autowired

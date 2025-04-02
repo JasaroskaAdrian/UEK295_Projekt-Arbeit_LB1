@@ -1,0 +1,99 @@
+.
+├── Checklist.md
+├── docker-compose.yml
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── README.md
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── ch
+│   │   │       └── csbe
+│   │   │           └── productmanagment
+│   │   │               ├── controller
+│   │   │               │   ├── AuthController.java
+│   │   │               │   ├── CategoryController.java
+│   │   │               │   ├── ProductController.java
+│   │   │               │   └── UserController.java
+│   │   │               ├── dto
+│   │   │               │   ├── AuthRequest.java
+│   │   │               │   ├── AuthResponse.java
+│   │   │               │   ├── category
+│   │   │               │   ├── product
+│   │   │               │   └── user
+│   │   │               ├── model
+│   │   │               │   ├── Category.java
+│   │   │               │   ├── Product.java
+│   │   │               │   └── User.java
+│   │   │               ├── ProductManagmentApplication.java
+│   │   │               ├── repository
+│   │   │               │   ├── CategoryRepository.java
+│   │   │               │   ├── ProductRepository.java
+│   │   │               │   └── UserRepository.java
+│   │   │               ├── security
+│   │   │               │   ├── AuthService.java
+│   │   │               │   ├── JwtAuthFilter.java
+│   │   │               │   ├── JwtService.java
+│   │   │               │   └── SecurityConfig.java
+│   │   │               └── service
+│   │   │                   ├── CategoryServiceImpl.java
+│   │   │                   ├── CategoryService.java
+│   │   │                   ├── ProductServiceImpl.java
+│   │   │                   ├── ProductServiceInterface.java
+│   │   │                   ├── UserServiceImpl.java
+│   │   │                   └── UserService.java
+│   │   └── resources
+│   │       ├── application.yml
+│   │       └── db
+│   │           └── migration
+│   │               └── V1.0.0__Base_DDL.sql
+│   └── test
+│       └── java
+│           └── ch
+│               └── csbe
+│                   └── productmanagment
+│                       └── ProductManagmentApplicationTests.java
+├── structure.txt
+└── target
+    ├── classes
+    │   ├── application.yml
+    │   ├── ch
+    │   │   └── csbe
+    │   │       └── productmanagment
+    │   │           ├── controller
+    │   │           │   ├── AuthController.class
+    │   │           │   ├── CategoryController.class
+    │   │           │   ├── ProductController.class
+    │   │           │   └── UserController.class
+    │   │           ├── dto
+    │   │           │   ├── AuthRequest.class
+    │   │           │   └── AuthResponse.class
+    │   │           ├── model
+    │   │           │   ├── Category.class
+    │   │           │   ├── Product.class
+    │   │           │   └── User.class
+    │   │           ├── ProductManagmentApplication.class
+    │   │           ├── repository
+    │   │           │   ├── CategoryRepository.class
+    │   │           │   ├── ProductRepository.class
+    │   │           │   └── UserRepository.class
+    │   │           ├── security
+    │   │           │   ├── AuthService.class
+    │   │           │   ├── JwtAuthFilter.class
+    │   │           │   ├── JwtService.class
+    │   │           │   └── SecurityConfig.class
+    │   │           └── service
+    │   │               ├── CategoryService.class
+    │   │               ├── CategoryServiceImpl.class
+    │   │               ├── ProductServiceImpl.class
+    │   │               ├── ProductServiceInterface.class
+    │   │               ├── UserService.class
+    │   │               └── UserServiceImpl.class
+    │   └── db
+    │       └── migration
+    │           └── V1.0.0__Base_DDL.sql
+    └── generated-sources
+        └── annotations
+
+39 directories, 58 files

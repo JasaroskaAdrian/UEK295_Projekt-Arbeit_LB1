@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
+// Implementation of product service for product management
 public class ProductServiceImpl implements ProductServiceInterface {
 
     @Autowired

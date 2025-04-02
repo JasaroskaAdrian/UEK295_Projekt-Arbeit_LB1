@@ -4,6 +4,7 @@ import ch.csbe.productmanagment.model.Product;
 
 import java.util.List;
 
+// Service interface for product operations
 public interface ProductServiceInterface {
     Product create(Product product);
     Product getById(Long id);

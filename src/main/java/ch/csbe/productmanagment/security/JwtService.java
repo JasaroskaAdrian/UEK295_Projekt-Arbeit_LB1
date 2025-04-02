@@ -9,11 +9,14 @@ import java.security.Key;
 import java.util.Date;
 
 @Service
+// JWT token service
+// Handles token generation, validation and user extraction
 public class JwtService {
 
     private final Key key = Keys.secretKeyFor(SignatureAlgorithm.HS256);
-    private final long EXPIRATION_TIME = 86400000; // 1 día en ms
+    private final long EXPIRATION_TIME = 86400000; // 1 day in milliseconds
 
+    // Generate JWT token for authenticated user
     public String generateToken(String username) {
         return Jwts.builder()
                 .setSubject(username)
@@ -23,6 +26,7 @@ public class JwtService {
                 .compact();
     }
 
+    // Extract username from JWT token
     public String extractUsername(String token) {
         return Jwts.parserBuilder()
                 .setSigningKey(key)
@@ -32,6 +36,7 @@ public class JwtService {
                 .getSubject();
     }
 
+    // Validate JWT token against username
     public boolean validateToken(String token, String username) {
         String extractedUsername = extractUsername(token);
         return extractedUsername.equals(username);

@@ -9,18 +9,19 @@ import java.util.HashSet;
 import java.util.List;
 
 @Service
+// Implementation of user service for user management
 public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
 
-    // Crea un nuevo usuario (equivale a registrar sin validación adicional)
+    // Create a new user (equivalent to registration without additional validation)
     @Override
     public User create(User user) {
         return userRepository.save(user);
     }
 
-    // Actualiza los datos de un usuario
+    // Update user data
     @Override
     public User update(Long id, User user) {
         User existing = getById(id);
@@ -30,26 +31,26 @@ public class UserServiceImpl implements UserService {
         return userRepository.save(existing);
     }
 
-    // Elimina un usuario por ID
+    // Delete a user by ID
     @Override
     public void delete(Long id) {
         userRepository.deleteById(id);
     }
 
-    // Busca un usuario por ID
+    // Find a user by ID
     @Override
     public User getById(Long id) {
         return userRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("User with ID " + id + " not found"));
     }
 
-    // Lista todos los usuarios
+    // List all users
     @Override
     public List<User> getAll() {
         return userRepository.findAll();
     }
 
-    // Registra un nuevo usuario (podrías agregar validaciones o encriptación de password aquí)
+    // Register a new user (can add validations or password encryption here)
     @Override
     public User register(User user) {
         // Inicializa el rol por defecto si está vacío
@@ -60,7 +61,7 @@ public class UserServiceImpl implements UserService {
         return userRepository.save(user);
     }
 
-    // Promueve un usuario a ADMIN
+    // Promote a user to ADMIN
     @Override
     public void promoteToAdmin(Long userId) {
         User user = getById(userId);
@@ -70,7 +71,7 @@ public class UserServiceImpl implements UserService {
         }
     }
 
-    // Busca por nombre de usuario
+    // Find by username
     @Override
     public User findByUsername(String username) {
         return userRepository.findByUsername(username)

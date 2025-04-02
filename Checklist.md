@@ -18,7 +18,7 @@ Formale Anforderungen
 [ … ] - 2 Punkte – Nur ein kleiner Teil der Anforderungen wurde erfüllt.
 [ … ] - 4 Punkte – Der größte Teil der formalen Anforderungen wurde erfüllt.
 [ x ] - 6 Punkte – Alle formalen Anforderungen erfüllt (Inhaltsverzeichnis, angemessene Schriftart/-größe, klare Gliederung, seriöse Sprache, Autor & Datum, Seitenzahlen).
-Arbeitsjournal
+Arbeitsjournal !!!!
 [ … ] - 0 Punkte – Kein richtiges Arbeitsjournal vorhanden.
 [ … ] - 2 Punkte – Arbeitsjournal ist unvollständig oder schlecht geführt.
 [ … ] - 4 Punkte – Arbeitsjournal ist größtenteils vollständig und strukturiert.
@@ -28,7 +28,7 @@ Namensschema für Daten
 [ … ] - 2 Punkte – Namensschema definiert nur wenige Regeln korrekt.
 [ … ] - 4 Punkte – Namensschema ist größtenteils klar und sinnvoll.
 [ x ] - 6 Punkte – Namensschema ist vollständig und definiert klar Groß-/Kleinschreibung sowie Benennungen.
-Beschreibung der Endpoints
+Beschreibung der Endpoints !!!!
 [ … ] - 0 Punkte – API-Endpoints nicht oder unvollständig dokumentiert.
 [ … ] - 2 Punkte – Nur ein Teil der Endpoints ist dokumentiert.
 [ … ] - 4 Punkte – Die meisten Endpoints sind ausreichend dokumentiert.
@@ -52,7 +52,7 @@ Einhaltung der Code-Style-Richtlinien
 [ … ] - 2 Punkte – Code-Style nur teilweise eingehalten.
 [ … ] - 4 Punkte – Code-Style wurde an den meisten Stellen eingehalten.
 [ x ] - 6 Punkte – Code folgt vollständig den Richtlinien.
-Code-Kommentare !!!!
+Code-Kommentare
 [ … ] - 0 Punkte – Code kaum oder gar nicht kommentiert.
 [ … ] - 2 Punkte – Kommentare unzureichend.
 [ … ] - 4 Punkte – Die meisten nicht selbsterklärenden Code-Stellen sind kommentiert.
@@ -78,7 +78,7 @@ Authentifizierung
 Datenbank Seed !!!!
 [ … ] - 0 Punkte – Kein Seed vorhanden (keine initialen Daten).
 [ … ] - 2 Punkte – Flyway installiert, aber SQL-Dateien fehlen.
-[ … ] - 4 Punkte – Flyway korrekt installiert, für jede Entität sind mindestens 2 Datensätze vorhanden.
+[ x ] - 4 Punkte – Flyway korrekt installiert, für jede Entität sind mindestens 2 Datensätze vorhanden.
 Benutzerverwaltung
 [ … ] - 0 Punkte – Anmeldung, Registrierung oder Rollenverwaltung fehlen oder sind fehlerhaft.
 [ … ] - 3 Punkte – Anmeldung und Registrierung korrekt implementiert.

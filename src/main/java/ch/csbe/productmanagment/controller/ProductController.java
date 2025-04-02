@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/products")
 @Tag(name = "Products", description = "Endpoints for managing products")
+// Product management endpoints for CRUD operations
 public class ProductController {
 
     @Autowired

@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
+// Implementation of category service for category management
 public class CategoryServiceImpl implements CategoryService {
 
     @Autowired

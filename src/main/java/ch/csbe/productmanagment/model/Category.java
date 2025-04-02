@@ -3,6 +3,9 @@ package ch.csbe.productmanagment.model;
 import jakarta.persistence.*;
 import lombok.Data;
 
+/**
+* Category entity for grouping related products
+*/
 @Entity
 @Data
 public class Category {

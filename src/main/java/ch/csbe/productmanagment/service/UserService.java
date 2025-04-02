@@ -4,6 +4,7 @@ import ch.csbe.productmanagment.model.User;
 
 import java.util.List;
 
+// Service interface for user management operations
 public interface UserService {
     User create(User user);
     User update(Long id, User user);

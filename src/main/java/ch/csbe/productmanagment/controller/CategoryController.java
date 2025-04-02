@@ -14,6 +14,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/categories")
 @Tag(name = "Categories", description = "Endpoints for managing product categories")
+// Category management endpoints for CRUD operations
 public class CategoryController {
 
     @Autowired
