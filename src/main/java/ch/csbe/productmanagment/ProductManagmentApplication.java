@@ -1,13 +1,13 @@
-package ch.csbe.uek295_boilerplate;
+package ch.csbe.productmanagment;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class Uek295BoilerplateApplication {
+public class ProductManagmentApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Uek295BoilerplateApplication.class, args);
+        SpringApplication.run(ProductManagmentApplication.class, args);
     }
 
 }

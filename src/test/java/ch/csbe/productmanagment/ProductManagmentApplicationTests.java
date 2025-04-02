@@ -1,10 +1,10 @@
-package ch.csbe.uek295_boilerplate;
+package ch.csbe.productmanagment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Uek295BoilerplateApplicationTests {
+class ProductManagmentApplicationTests {
 
     @Test
     void contextLoads() {
