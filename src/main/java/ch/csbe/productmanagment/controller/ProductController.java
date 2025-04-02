@@ -1,7 +1,7 @@
 package ch.csbe.productmanagment.controller;
 
 import ch.csbe.productmanagment.model.Product;
-import ch.csbe.productmanagment.service.ProductService;
+import ch.csbe.productmanagment.service.ProductServiceInterface;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -17,7 +17,7 @@ import java.util.List;
 public class ProductController {
 
     @Autowired
-    private ProductService productService;
+    private ProductServiceInterface productService;
 
     @Operation(summary = "Create a new product", description = "Create a new product and associate it with a category")
     @ApiResponse(responseCode = "200", description = "Product created successfully")

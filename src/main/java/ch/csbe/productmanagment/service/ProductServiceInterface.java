@@ -4,7 +4,7 @@ import ch.csbe.productmanagment.model.Product;
 
 import java.util.List;
 
-public interface ProductService {
+public interface ProductServiceInterface {
     Product create(Product product);
     Product getById(Long id);
     List<Product> getAll();

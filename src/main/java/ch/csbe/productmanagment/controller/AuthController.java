@@ -43,6 +43,7 @@ public class AuthController {
     @PostMapping("/register")
     public ResponseEntity<User> register(@RequestBody AuthRequest request) {
         User user = new User();
+        // user = userMapper.toUser(request)
         user.setUsername(request.getUsername());
         user.setPassword(passwordEncoder.encode(request.getPassword()));
         user.setRoles(Set.of("USER"));
