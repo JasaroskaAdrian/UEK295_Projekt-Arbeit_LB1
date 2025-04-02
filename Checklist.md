@@ -2,7 +2,7 @@ Projekt-Checkliste
 Anwendungsfunktionalität
 [ … ] - 0-3 Punkte – Die Applikation funktioniert nicht oder nur teilweise.
 [ … ] - 1 Punkt – Nur ein geringer Teil des Funktionsumfangs funktioniert.
-[ … ] - 2 Punkte – Der größte Teil der Applikation funktioniert korrekt.
+[ x ] - 2 Punkte – Der größte Teil der Applikation funktioniert korrekt.
 [ … ] - 3 Punkte – Die ganze Applikation funktioniert und es gibt keine Skriptfehler.
 Versionsverwaltung
 [ … ] - 0 Punkte – Keine korrekte Versionsverwaltung verwendet.
@@ -36,7 +36,7 @@ Beschreibung der Endpoints
 API-Struktur
 [ … ] - 0 Punkte – Endpoints sind inkonsistent oder entsprechen nicht den REST-Richtlinien.
 [ … ] - 3 Punkte – Endpoints sind nur an wenigen Stellen konsistent.
-[ … ] - 6 Punkte – Die meisten Endpoints sind strukturell sinnvoll.
+[ x ] - 6 Punkte – Die meisten Endpoints sind strukturell sinnvoll.
 [ … ] - 9 Punkte – REST-Richtlinien werden sauber umgesetzt, alle Ressourcen haben sinnvolle Endpoints und Argumente.
 HTTP Response Codes
 [ … ] - 0 Punkte – An vielen Stellen falsche Antwortcodes.
@@ -45,41 +45,41 @@ HTTP Response Codes
 OpenAPI-Dokumentation
 [ … ] - 0 Punkte – Keine OpenAPI-Dokumentation abgegeben.
 [ … ] - 4 Punkte – API-Dokumentation ist deutlich unzureichend.
-[ … ] - 8 Punkte – API-Dokumentation ist größtenteils ausreichend.
-[ … ] - 12 Punkte – OpenAPI-Dokumentation ist enthalten und umfassend (Beschreibung aller Endpoints, Parameter, Beispielwerte, HTTP-Methoden, Rückgabedaten).
+[ x ] - 8 Punkte – API-Dokumentation ist größtenteils ausreichend.
+[ ... ] - 12 Punkte – OpenAPI-Dokumentation ist enthalten und umfassend (Beschreibung aller Endpoints, Parameter, Beispielwerte, HTTP-Methoden, Rückgabedaten).
 Einhaltung der Code-Style-Richtlinien
 [ … ] - 0 Punkte – Code-Style-Richtlinien kaum beachtet.
 [ … ] - 2 Punkte – Code-Style nur teilweise eingehalten.
 [ … ] - 4 Punkte – Code-Style wurde an den meisten Stellen eingehalten.
-[ … ] - 6 Punkte – Code folgt vollständig den Richtlinien.
-Code-Kommentare
+[ x ] - 6 Punkte – Code folgt vollständig den Richtlinien.
+Code-Kommentare !!!!
 [ … ] - 0 Punkte – Code kaum oder gar nicht kommentiert.
 [ … ] - 2 Punkte – Kommentare unzureichend.
 [ … ] - 4 Punkte – Die meisten nicht selbsterklärenden Code-Stellen sind kommentiert.
-[ … ] - 6 Punkte – Alle notwendigen Stellen sind ausführlich kommentiert.
+[ x ] - 6 Punkte – Alle notwendigen Stellen sind ausführlich kommentiert.
 Tabellenstruktur
 [ … ] - 0 Punkte – Datenbankstruktur entspricht nicht dem Modell.
 [ … ] - 2 Punkte – Nur wenige Teile entsprechen dem Modell.
 [ … ] - 4 Punkte – Die meisten Tabellen entsprechen dem Modell.
-[ … ] - 6 Punkte – Die Datenbank entspricht durchgehend dem Modell.
+[ x ] - 6 Punkte – Die Datenbank entspricht durchgehend dem Modell.
 Dateistruktur
 [ … ] - 0 Punkte – Keine klare Struktur, alle Dateien im selben Ordner.
 [ … ] - 2 Punkte – Teilweise sinnvolle Struktur.
-[ … ] - 4 Punkte – Einheitliche und logische Dateistruktur, Dateien sind sinnvoll gruppiert.
+[ x ] - 4 Punkte – Einheitliche und logische Dateistruktur, Dateien sind sinnvoll gruppiert.
 Sicherheit
 [ … ] - 0 Punkte – Große Sicherheitsrisiken vorhanden.
-[ … ] - 2 Punkte – Sicherheitsrisiken bestehen, sind aber schwer auszunutzen.
+[ x ] - 2 Punkte – Sicherheitsrisiken bestehen, sind aber schwer auszunutzen.
 [ … ] - 4 Punkte – Keine erkennbaren Sicherheitsrisiken.
 Authentifizierung
 [ … ] - 0 Punkte – Endpoints sind nicht oder falsch geschützt.
 [ … ] - 3 Punkte – Nur teilweise korrekt geschützte Endpoints.
 [ … ] - 6 Punkte – Die meisten Endpoints sind korrekt geschützt.
-[ … ] - 9 Punkte – Alle geschützten Endpoints erfordern eine korrekte Authentifizierung.
-Datenbank Seed
+[ x ] - 9 Punkte – Alle geschützten Endpoints erfordern eine korrekte Authentifizierung.
+Datenbank Seed !!!!
 [ … ] - 0 Punkte – Kein Seed vorhanden (keine initialen Daten).
 [ … ] - 2 Punkte – Flyway installiert, aber SQL-Dateien fehlen.
 [ … ] - 4 Punkte – Flyway korrekt installiert, für jede Entität sind mindestens 2 Datensätze vorhanden.
 Benutzerverwaltung
 [ … ] - 0 Punkte – Anmeldung, Registrierung oder Rollenverwaltung fehlen oder sind fehlerhaft.
 [ … ] - 3 Punkte – Anmeldung und Registrierung korrekt implementiert.
-[ … ] - 6 Punkte – Anmeldung, Rollenverwaltung und Validierung vollständig umgesetzt.
+[ x ] - 6 Punkte – Anmeldung, Rollenverwaltung und Validierung vollständig umgesetzt.
